@@ -2,24 +2,26 @@
 
 /* Root variables matching the booklet's exact colors */
 :root {
-  --background-purple: #382c47; /* dark purple/burgundy background */
-  --text-gold: #cba745;          /* classic gold text */
-  --background-white: #fffdf8;   /* off-white paper-like background */
-  --text-dark-brown: #3a2e2d;    /* dark brown for body text */
-  --accent-brown: #613e2c;       /* deep warm brown accent */
-  --section-border: #9a7d39;     /* subtle golden border/shadow */
+  --background-purple: #382c47;     /* deep burgundy */
+  --text-gold: #cba745;             /* classic gold */
+  --background-white: #fffdf8;      /* soft paper white */
+  --text-dark-brown: #3a2e2d;       /* body text */
+  --accent-brown: #613e2c;          /* warm brown for list items */
+  --section-border: #9a7d39;        /* golden border */
+  --highlight-pink: #f2d6eb;        /* soft pink accent (from bridal flyer) */
+  --shadow-gold: rgba(203, 167, 69, 0.3); /* subtle gold shadow */
 }
-
 /* Main container matching booklet paper look */
 .academy-section {
   background-color: var(--background-white);
   padding: 48px 32px;
   font-family: 'Montserrat', sans-serif;
   color: var(--text-dark-brown);
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
-  box-shadow: 0 0 15px rgba(0,0,0,0.05);
   border-radius: 12px;
+  box-shadow: 0 0 20px var(--shadow-gold);
+  border: 2px solid var(--section-border);
 }
 
 /* Section title uses serif with gold text and spacing like booklet */
@@ -39,11 +41,17 @@
 .academy-module {
   background-color: var(--background-white);
   border: 1.5px solid var(--section-border);
-  padding: 28px 28px 32px 28px;
-  margin-bottom: 34px;
+  padding: 28px;
+  margin-bottom: 36px;
   border-radius: 14px;
-  box-shadow: 2px 2px 8px rgba(106, 83, 34, 0.22);
+  box-shadow: 2px 2px 12px var(--shadow-gold);
+  transition: transform 0.3s ease;
 }
+
+.academy-module:hover {
+  transform: translateY(-4px);
+}
+
 
 /* Module headers use gold serif with spacing and uppercase */
 .academy-module h3 {
@@ -52,8 +60,10 @@
   font-size: 1.75rem;
   color: var(--text-gold);
   margin-bottom: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   text-transform: uppercase;
+  border-bottom: 1px dashed var(--section-border);
+  padding-bottom: 8px;
 }
 
 /* Lists styled close to booklet with warm brown text */
@@ -79,17 +89,17 @@
 
   .academy-section h2 {
     font-size: 2rem;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
   }
 
   .academy-module {
-    padding: 20px 24px 24px 24px;
-    margin-bottom: 26px;
+    padding: 20px;
+    margin-bottom: 28px;
   }
 
   .academy-module h3 {
-    font-size: 1.3rem;
-    letter-spacing: 3px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
   }
 
   .academy-module ul li {
