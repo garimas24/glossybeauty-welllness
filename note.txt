@@ -1,0 +1,97 @@
+Based on the fonts used in the shared files, the style of the Glossy Beauty & Wellness Academy & Salon branding combines elegant serif and clean sans-serif fonts for different purposes:
+
+Main Fonts
+Usage	Approximate Font Style / Family	Typical Alternative
+Logo/Branding	Elegant, Decorative Serif (serif with swash/ligature)	Playfair Display, Cormorant Garamond, Cinzel Decorative
+Headings	Bold Serif or Geometric Sans-serif, clean and strong	Merriweather, Lora, Montserrat, Poppins, Playfair Display
+Body Text	Classic Sans-serif, modern and readable	Open Sans, Lato, Roboto, Source Sans Pro
+Subheadings, Emphasis	Modern Sans-serif/Bold, all-caps	Montserrat, Raleway
+Detailed Notes
+The main “GLOSSY” brand and large headers use a serif/decorative serif font with gentle curves and moderate thick/thin contrast, similar to Playfair Display or Cinzel Decorative.
+
+The supporting text beneath, menu items, and lists use modern sans-serif fonts for readability, echoing Montserrat, Lato, or Open Sans.
+
+Handwritten/cursive accents (like "Professional Courses" or “Facilities”) use a brush or script font, similar to Pacifico or Dancing Script.
+
+Recommendation for Website
+For consistency and accessibility online, use these Google Fonts combinations:
+
+Logo/Headings: Playfair Display, Cinzel, or Cormorant Garamond
+
+Body: Open Sans, Lato, or Montserrat
+
+Accent script: Dancing Script or Pacifico
+
+This palette will closely reflect your printed material and ensure a clean, high-end appearance for your website.
+
+If exact font matching is critical, uploading the font files or revealing the font names from the original design files will yield 100% accuracy. The above suggestions, however, are visually and stylistically very close to what is seen in your marketing and printed materials.
+
+
+
+These hex codes are sampled from the dominant backgrounds, accent lines, text, and highlights in your shared print and digital materials. This palette projects a rich, elegant, and welcoming aesthetic, suitable for beauty and wellness branding.
+
+For a website, use Deep Purple for headers, Gold for buttons and highlights, and Soft Pink or Lavender for section backgrounds. White and Black should be reserved for core text and sharp accents.The color palette from the provided images can be summarized as follows:
+
+Deep Royal Purple (#4B2354): Dominant background and border color.
+
+Gold Yellow (#F7C25F): Used for headings, accents, and highlighted text.
+
+Soft Pink (#E8B9D8): Border accents and subtle background.
+
+White (#FFFFFF): Main body text and highlights.
+
+Black (#191019): Text and detail lines.
+
+Lavender/Light Violet (#E3D0E8): Secondary background accents.
+
+Warm Beige (#C6A477): Minor highlights and decorative accents.
+
+These colors reflect the elegant and professional theme in your branding materials and flyers.The exact color palette extracted from your shared files features the following shades:
+
+Deep Purple (#4B2354): predominant background and border color
+
+Gold/Yellow (#F7C25F): accent for headings, highlights, and icons
+
+Soft Pink (#E8B9D8): decorative border and accent
+
+White (#FFFFFF): main text and highlights
+
+Black (#191019): detailed text and logo elements
+
+This palette creates a rich, elegant, and professional appearance for branding your website and print materials.
+
+
+
+
+
+
+
+
+
+Based on the fonts used in the shared files, the style of the Glossy Beauty & Wellness Academy & Salon branding combines elegant serif and clean sans-serif fonts for different purposes:
+
+Main Fonts
+Usage	Approximate Font Style / Family	Typical Alternative
+Logo/Branding	Elegant, Decorative Serif (serif with swash/ligature)	Playfair Display, Cormorant Garamond, Cinzel Decorative
+Headings	Bold Serif or Geometric Sans-serif, clean and strong	Merriweather, Lora, Montserrat, Poppins, Playfair Display
+Body Text	Classic Sans-serif, modern and readable	Open Sans, Lato, Roboto, Source Sans Pro
+Subheadings, Emphasis	Modern Sans-serif/Bold, all-caps	Montserrat, Raleway
+Detailed Notes
+The main “GLOSSY” brand and large headers use a serif/decorative serif font with gentle curves and moderate thick/thin contrast, similar to Playfair Display or Cinzel Decorative.
+
+The supporting text beneath, menu items, and lists use modern sans-serif fonts for readability, echoing Montserrat, Lato, or Open Sans.
+
+Handwritten/cursive accents (like "Professional Courses" or “Facilities”) use a brush or script font, similar to Pacifico or Dancing Script.
+
+Recommendation for Website
+For consistency and accessibility online, use these Google Fonts combinations:
+
+Logo/Headings: Playfair Display, Cinzel, or Cormorant Garamond
+
+Body: Open Sans, Lato, or Montserrat
+
+Accent script: Dancing Script or Pacifico
+
+This palette will closely reflect your printed material and ensure a clean, high-end appearance for your website.
+
+If exact font matching is critical, uploading the font files or revealing the font names from the original design files will yield 100% accuracy. The above suggestions, however, are visually and stylistically very close to what is seen in your marketing and printed materials.

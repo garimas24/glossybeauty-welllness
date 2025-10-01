@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+  --deep-purple: #3a1d40;
+  --gold-yellow: #f5c542;
+  --soft-pink: #f2d6eb;
+  --white: #ffffff;
+  --black: #1a1a1a;
+}
+
+/* Header Container */
+.heading {
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+  padding: 12px;
+  background: var(--deep-purple);
+  color: var(--gold-yellow);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand Title */
+.header {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 1px;
+  color: var(--gold-yellow);
+}
+
+/* Navigation */
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--deep-purple);
+  transition: all 0.3s ease;
+}
+
+.topnav a {
+  color: var(--gold-yellow);
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  margin: 0 4px;
+}
+
+.topnav a:hover {
+  background: var(--gold-yellow);
+  color: var(--deep-purple);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.topnav a.active {
+  background: var(--gold-yellow);
+  color: var(--deep-purple);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+/* Hamburger Icon */
+.topnav .icon {
+  display: none;
+  color: var(--gold-yellow);
+  font-size: 26px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.topnav .icon:hover {
+  transform: rotate(90deg);
+}
+
+/* Responsive Menu */
+@media screen and (max-width: 768px) {
+  .topnav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+  }
+
+  .topnav a:not(:last-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: block;
+    align-self: flex-end;
+  }
+
+  .topnav.responsive a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 12px;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-right: 16px;
+}
