@@ -11,14 +11,27 @@
 /* Header Container */
 .heading {
   font-family: 'Montserrat', Arial, sans-serif;
-  text-align: center;
-  padding: 12px;
   background: var(--deep-purple);
   color: var(--gold-yellow);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+/* Navbar Layout */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+  height: 50px;
+  width: auto;
 }
 
 /* Brand Title */
@@ -34,6 +47,7 @@
 /* Navigation */
 .topnav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: var(--deep-purple);
   transition: all 0.3s ease;
@@ -80,14 +94,25 @@
 
 /* Responsive Menu */
 @media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .topnav {
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px;
+    width: 100%;
+    padding: 8px 16px;
   }
 
-  .topnav a:not(:last-child) {
+  .topnav a {
     display: none;
+    width: 100%;
+    text-align: left;
+    padding: 12px;
+    margin: 4px 0;
+    border-radius: 4px;
   }
 
   .topnav a.icon {
@@ -97,57 +122,16 @@
 
   .topnav.responsive a {
     display: block;
-    width: 100%;
-    text-align: left;
-    padding: 12px;
-    margin: 4px 0;
-    border-radius: 4px;
   }
-}
 
-.navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.logo img {
-  height: 50px;
-  width: auto;
-  margin-right: 16px;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg);}
-  to { transform: rotate(360deg);}
-}
-
-@media screen and (max-width: 768px) {
-  .topnav a:not(:last-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 16px;
+    top: 12px;
   }
+
   .topnav.responsive {
     position: relative;
     background-color: var(--deep-purple);
-  }
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    font-family: 'Montserrat', Arial, sans-serif;
-    color: var(--gold-yellow);
-    font-weight: 700;
-  }
-  .topnav.responsive a:hover {
-    background-color: var(--gold-yellow);
-    color: var(--deep-purple);
   }
 }
